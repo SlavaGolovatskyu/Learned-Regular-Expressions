@@ -64,3 +64,12 @@ res = re.findall(r'[\+\-\/\*]', result)
 print(res)
 print(result)
 print(eval(result))
+
+
+
+
+
+text = str(input())
+result = re.findall(r'(\w+)@', text)
+print(result)
+print(re.findall(r'@[A-Za-z\.]+', text))
